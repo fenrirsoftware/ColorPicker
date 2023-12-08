@@ -32,6 +32,7 @@ partial class ColorShow
         btn_colorShow = new Button();
         toolStrip1 = new ToolStrip();
         toolStripLabel1 = new ToolStripLabel();
+        toolStripLabel2 = new ToolStripLabel();
         toolStrip1.SuspendLayout();
         SuspendLayout();
         // 
@@ -56,7 +57,7 @@ partial class ColorShow
         // 
         // toolStrip1
         // 
-        toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabel1 });
+        toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabel1, toolStripLabel2 });
         toolStrip1.Location = new Point(0, 0);
         toolStrip1.Name = "toolStrip1";
         toolStrip1.Size = new Size(241, 25);
@@ -65,11 +66,18 @@ partial class ColorShow
         // 
         // toolStripLabel1
         // 
-        toolStripLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+        toolStripLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
         toolStripLabel1.Name = "toolStripLabel1";
-        toolStripLabel1.Size = new Size(104, 22);
+        toolStripLabel1.Size = new Size(78, 22);
         toolStripLabel1.Text = "son seçilenler";
         toolStripLabel1.Click += toolStripLabel1_Click;
+        // 
+        // toolStripLabel2
+        // 
+        toolStripLabel2.Name = "toolStripLabel2";
+        toolStripLabel2.Size = new Size(75, 22);
+        toolStripLabel2.Text = "Renk Oluştur";
+        toolStripLabel2.Click += toolStripLabel2_Click;
         // 
         // ColorShow
         // 
@@ -79,9 +87,8 @@ partial class ColorShow
         Controls.Add(toolStrip1);
         Controls.Add(btn_colorShow);
         Controls.Add(lbl_color);
-        FormBorderStyle = FormBorderStyle.None;
         Name = "ColorShow";
-        Text = "Main Form";
+        Text = "Color Picker";
         TopMost = true;
         Load += ColorShow_Load;
         toolStrip1.ResumeLayout(false);
@@ -96,4 +103,5 @@ partial class ColorShow
     private Button btn_colorShow;
     private ToolStrip toolStrip1;
     private ToolStripLabel toolStripLabel1;
+    private ToolStripLabel toolStripLabel2;
 }

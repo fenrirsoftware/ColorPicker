@@ -103,5 +103,10 @@ public partial class ColorShow : Form
         this.Hide();
     }
 
-
+    private void toolStripLabel2_Click(object sender, EventArgs e)
+    {
+        colorcreate cc = new colorcreate();
+        cc.Show();
+        this.Hide();
+    }
 }

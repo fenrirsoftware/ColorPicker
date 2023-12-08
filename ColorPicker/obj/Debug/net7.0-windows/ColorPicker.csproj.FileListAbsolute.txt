@@ -32,3 +32,5 @@ C:\Users\Özhan Yıldırım\Desktop\Projeler\colorpicker\ColorPicker\obj\Debug\n
 C:\Users\Özhan Yıldırım\Desktop\Projeler\colorpicker\ColorPicker\obj\Debug\net7.0-windows\ColorPicker.pdb
 C:\Users\Özhan Yıldırım\Desktop\Projeler\colorpicker\ColorPicker\obj\Debug\net7.0-windows\ColorPicker.genruntimeconfig.cache
 C:\Users\Özhan Yıldırım\Desktop\Projeler\colorpicker\ColorPicker\obj\Debug\net7.0-windows\ref\ColorPicker.dll
+C:\Users\Özhan Yıldırım\Desktop\Projeler\colorpicker\ColorPicker\obj\Debug\net7.0-windows\ColorPicker.sourcelink.json
+C:\Users\Özhan Yıldırım\Desktop\Projeler\colorpicker\ColorPicker\obj\Debug\net7.0-windows\ColorPicker.colorcreate.resources
